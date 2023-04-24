@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.Intro{
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 4px 2px -2px rgba(3, 0, 0, 0.5);
+  width: 95%;
+
+}
+
+
+.Intro h3{
+  padding-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.App-header {
+  background-color: rgb(129, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 60px;
+}
+
+
+.blog-container{
+  background-color: wheat;
+  width: 100%;
+}
+
+.App-leftdiv{
+  display: flex;
+  flex-direction: column;
+  color: #000000f0;
+  width: 75%;
+  height: 680px;
+  background-color: #edebeb;
+  float: left;
+  } 
+
+  .App-leftdiv h1{
+    color: #c30c27;
+  }
+
+  .App-leftdiv a{
+    text-decoration: none;
+  }
+
+.App-rightdiv{
+  display: flex;
+  color: white;
+  width: 25%;
+  height: 680px;
+  background-color: #edebeb;
+  flex-direction: column;
+}
+
+.App-footer{
+  background-color: rgb(129, 34, 34);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  height: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover{
+  color:yellow;
+}
+
+.post-container h4{
+  padding: 5px;
+  padding-top: 10px;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

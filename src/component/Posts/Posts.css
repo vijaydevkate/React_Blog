@@ -1,0 +1,10 @@
+
+.posts-container {
+	display: flex;
+}
+
+@media (max-width: 800px) {
+	.posts-container {
+	  flex-direction: column;
+	}
+  }
